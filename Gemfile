@@ -14,6 +14,8 @@ gem 'devise'
 gem 'mysql2'
 gem 'simple_form'
 gem 'therubyracer', :platform=>:ruby
+gem "cancan"
+gem "paperclip"
 group :development do
   gem 'hub', :require=>nil
   gem 'rails_layout'
